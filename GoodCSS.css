@@ -13,7 +13,7 @@
     background-color:aqua;
 }
 
-.goodButtonMain, .goodGreenButton, .goodRedButton {
+.goodButtonMain:active, .goodGreenButton, .goodRedButton {
     border-radius:4px;
     /*padding:10px 15px;*/
     width:70px;
@@ -35,9 +35,10 @@
     animation-iteration-count:infinite;
     animation-duration:10s;
 }
-.goodActiveButton, .goodGreenButton:active, .goodRedButton:active {
+.goodButtonMain, .goodGreenButton:active, .goodRedButton:active {
     box-shadow: 0 5px #666;
     transform:translateY(2px);
+}
 .goodGreenButton:active {
   background-color: lightgreen;
   animation-name:greencycle;
