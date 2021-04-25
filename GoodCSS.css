@@ -3,6 +3,13 @@
  * code,
  * and more. Check them out!
 */
+.wideButtonBlue {
+    border-radius:4px;
+    width:100px;
+    height:40px;
+    border:solid 2px blue;
+    background-color:aqua;
+}
 .goodButtonMain {
     border-radius:4px;
     /*padding:10px 15px;*/
