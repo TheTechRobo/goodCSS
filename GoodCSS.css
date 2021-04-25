@@ -83,8 +83,8 @@
 @font-face {
     font-family: "Ubuntu Light";
     src: local("Ubuntu Light"), local("Ubuntu"), 
-        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-italic-webfont.woff2"),
-        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-italic-webfont.woff"), 
-        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-italic-webfont.ttf");
+        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.woff2"),
+        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.woff"), 
+        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.ttf");
 }
 .goodText { font-family: "Ubuntu Light",Verdana; }
