@@ -8,24 +8,69 @@
 .goodGreenButton {
     /*color: green;*/
     background-color:green;
-    border:2px solid darkgreen
+    border:2px solid darkgreen;
+    animation-name:greencycle2;
+    animation-iteration-count:infinite;
+    animation-duration:10s;
 }
 .goodRedButton{
     background-color:red;
     /*border:2px solid darkred;*/
-    border:2px solid crimson
+    border:2px solid crimson;
+    animation-name:redcycle2;
+    animation-iteration-count:infinite;
+    animation-duration:10s;
 }
 .goodGreenButton:active {
   background-color: lightgreen;
   box-shadow: 0 5px #666;
   transform: translateY(2px);
+  animation-name:greencycle;
+  animation-iteration-count:infinite;
+  animation-duration:4s;
 }
 .goodRedButton:active {
   background-color: crimson;
   box-shadow: 0 5px #666;
   transform: translateY(2px);
+  animation-name: redcycle;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
 }
-</style>
+@keyframes redcycle {
+  0% {background-color: red;}
+  50% {background-color: darkred;}
+  69% {background-color: crimson;}
+  70% {background-color:darkred;}
+  80% {background-color:firebrick}
+  100% {background-color:red}
+}
+@keyframes redcycle2 {
+    0% {background-color:red;}
+    50%{background-color:firebrick;}
+    70%{background-color:crimson;}
+    80%{background-color:red;}
+    99%{background-color:firebrick;}
+}
+@keyframes greencycle {
+    0% {background-color:green;}
+    50%{background-color:darkgreen;}
+    70%{background-color:limegreen;}
+    80%{background-color:palegreen;}
+    90%{background-color:forestgreen;}
+    100%{background-color:green;}
+}
+@keyframes greencycle2 {
+    0%{background-color:green;}
+    20%{background-color:limegreen;}
+    30%{background-color:forestgreen;}
+    40%{background-color:palegreen;}
+    50%{background-color:green;}
+    70%{background-color:darkolivegreen;}
+    72%{background-color:seagreen;}
+    95%{background-color:mediumspringgreen;}
+    100%{background-color:green;}
+}</style>
 
 <button class="goodButtonMain goodGreenButton">&#x2713;</button>
 <button class="goodButtonMain goodRedButton">&#x2718;</button>
