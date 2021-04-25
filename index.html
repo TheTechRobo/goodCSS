@@ -1,0 +1,31 @@
+<style>
+.goodButtonMain {
+    border-radius:4px;
+    /*padding:10px 15px;*/
+    width:70px;
+    height:50px;
+}
+.goodGreenButton {
+    /*color: green;*/
+    background-color:green;
+    border:2px solid lightgreen
+}
+.goodRedButton{
+    background-color:red;
+    /*border:2px solid darkred;*/
+    border:2px solid crimson
+}
+.goodGreenButton:active {
+  background-color: lightgreen;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+.goodRedButton:active {
+  background-color: crimson;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+</style>
+
+<button class="goodButtonMain goodGreenButton">&#x2713;</button>
+<button class="goodButtonMain goodRedButton">&#x2718;</button>
