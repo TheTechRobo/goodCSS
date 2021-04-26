@@ -24,6 +24,11 @@
     background-color:aqua;
 }
 
+.wideButtonGrey {
+    border:solid 2px lightgrey;
+    background-color:grey;
+}
+
 .goodButtonMain:active, .goodGreenButton, .goodRedButton {
     border-radius:4px;
     /*padding:10px 15px;*/
