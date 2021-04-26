@@ -3,6 +3,17 @@
  * code,
  * and more. Check them out!
 */
+/*https://stackoverflow.com/a/2237896/9654083*/
+@font-face {
+    font-family: "Ubuntu Light";
+    src: local("Ubuntu Light"), local("Ubuntu"),
+        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.woff2"),
+        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.woff"),
+        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.ttf");
+}
+/*TODO: Find a way to do this with CSS2, for older browsers*/
+.goodText { font-family: "Ubuntu Light",Verdana; }
+
 .wideButtonMain, .wideButtonBlue, .wideButtonGrey {
     border-radius:4px;
     width:100px;
@@ -89,13 +100,3 @@
     95%{background-color:mediumspringgreen;}
     100%{background-color:green;}
 }
-/*https://stackoverflow.com/a/2237896/9654083*/
-@font-face {
-    font-family: "Ubuntu Light";
-    src: local("Ubuntu Light"), local("Ubuntu"), 
-        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.woff2"),
-        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.woff"), 
-        url("https://raw.githubusercontent.com/earaujoassis/ubuntu-fontface/master/fonts/ubuntu-light-webfont.ttf");
-}
-/*TODO: Find a way to do this with CSS2, for older browsers*/
-.goodText { font-family: "Ubuntu Light",Verdana; }
