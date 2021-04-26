@@ -104,3 +104,16 @@
     95%{background-color:mediumspringgreen;}
     100%{background-color:green;}
 }
+
+.inCont {
+    display:none;
+}
+.cont0:focus {
+    font-weight:bold;
+    outline:none;
+}
+.cont0:focus .inCont {
+    display:block;
+    outline:none;
+    text-decoration:none;
+}
