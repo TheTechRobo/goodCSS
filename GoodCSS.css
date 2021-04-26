@@ -34,6 +34,8 @@
     /*color: green;*/
     background-color:green;
     border:2px solid darkgreen;
+}
+.goodGreenButtonAnimations {
     animation-name:greencycle2;
     animation-iteration-count:infinite;
     animation-duration:10s;
@@ -42,6 +44,8 @@
     background-color:red;
     /*border:2px solid darkred;*/
     border:2px solid crimson;
+}
+.goodRedButtonAnimations {
     animation-name:redcycle2;
     animation-iteration-count:infinite;
     animation-duration:10s;
@@ -50,13 +54,13 @@
     box-shadow: 0 5px #666;
     transform:translateY(2px);
 }
-.goodGreenButton:active {
+.goodGreenButtonAnimations:active {
   background-color: lightgreen;
   animation-name:greencycle;
   animation-iteration-count:infinite;
   animation-duration:4s;
 }
-.goodRedButton:active {
+.goodRedButtonAnimations:active {
   background-color: crimson;
   animation-name: redcycle;
   animation-iteration-count: infinite;
