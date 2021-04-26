@@ -113,7 +113,11 @@
     outline:none;
 }
 .cont0:focus .inCont {
+    color:green;
+    font-weight:bold;
+    text-decoration:underline;
     display:block;
     outline:none;
-    text-decoration:none;
+    position:relative;
+    left:100px;
 }
