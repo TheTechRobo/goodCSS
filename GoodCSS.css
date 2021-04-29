@@ -126,8 +126,11 @@
     pointer-events:none;
 }
 #cb1:checked ~ .inCont {
-    display: block;
+    display:block;
 }
 #cb1 {
     display:none;
+}
+label {
+    cursor:pointer;
 }
