@@ -116,7 +116,7 @@
 @keyframes bluecycle2 {
     10%{color:darkgrey;background-color:teal;}
     30%{background-color:aqua;border-color:navy;}
-    50%{border:20px solid black;}
+    50%{border:14px solid black;}
     55%{border-color:navy;}
     70%{font-weight:300%;}
     80%{background-color:teal;}
