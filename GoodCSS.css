@@ -29,7 +29,7 @@
     background-color:grey;
 }
 
-.goodButtonMain:active, .goodGreenButton, .goodRedButton {
+.goodButtonMain:active, .goodBlueButton, .goodGreenButton, .goodRedButton {
     border-radius:4px;
     /*padding:10px 15px;*/
     width:70px;
@@ -45,6 +45,10 @@
     animation-iteration-count:infinite;
     animation-duration:10s;
 }
+.goodBlueButton {
+    background-color:blue;
+    border:2px solid navy;
+}
 .goodRedButton{
     background-color:red;
     /*border:2px solid darkred;*/
@@ -55,7 +59,12 @@
     animation-iteration-count:infinite;
     animation-duration:10s;
 }
-.goodButtonMain, .goodGreenButton:active, .goodRedButton:active {
+.goodBlueButtonAnimations {
+    animation-name:bluecycle2;
+    animation-iteration-count:infinite;
+    animation-duration:10s;
+}
+.goodButtonMain:active, .goodGreenButton:active, .goodRedButton:active, .goodBlueButton:active {
     box-shadow: 0 5px #666;
     transform:translateY(2px);
 }
@@ -64,6 +73,11 @@
   animation-name:greencycle;
   animation-iteration-count:infinite;
   animation-duration:4s;
+}
+.goodBlueButtonAnimations:active {
+    animation-name:bluecycle;
+    animation-iteration-count:infinite;
+    animation-duration:4s;
 }
 .goodRedButtonAnimations:active {
   background-color: crimson;
@@ -90,6 +104,24 @@
     80%{background-color:red;}
     99%{background-color:firebrick;}
 }
+@keyframes bluecycle {
+    1% {background-color:blue;transform:translateY(-2px);}
+    20%{background-color:aqua;}
+    50%{background-color:lightblue;}
+    70%{background-color:navy;border-color:darkblue;}
+    75%{border-color:navy;background-color:blue;}
+    80%{background-color:teal;}
+    99%{opacity:60%;}
+}
+@keyframes bluecycle2 {
+    10%{color:darkgrey;background-color:teal;}
+    30%{background-color:aqua;border-color:navy;}
+    50%{border:20px solid black;}
+    55%{border-color:navy;}
+    70%{font-weight:300%;}
+    80%{background-color:teal;}
+    99%{opacity:99%;background-color:aqua;}
+    100%{opacity:100%;background-color:blue;}
 @keyframes greencycle {
     0% {background-color:green;}
     50%{background-color:darkgreen;}
